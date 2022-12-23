@@ -197,3 +197,6 @@ p{
     border-color: #aaaaaa;
     transition: 3ms;
 }
+@media screen and (max-width: 480px) {
+    
+}
