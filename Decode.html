@@ -6,30 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stilos.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
-    
+    <script src="js/funciones.js"></script>
     <title>Decondificador</title>
 </head>
 <body>   
-    <main >
-        <div class="logo">
+    <div class="main">
+        <div class="logo divisaras">
             <img src="img/Vector (1).png" alt="">
-        </div>        
-        <div >           
-            <div  class="ingreso">
-                <input type="text" id="textingreso" placeholder="Ingrese el Texto Aqui">         
-            </div>
-        </div>  
+        </div>      
+        <div  class="ingreso divisaras">
+            <input type="text" id="textingreso" placeholder="Ingrese el Texto Aqui">         
+        </div>       
         <div>
-            <div class="vector">
+            <div class="vector divisaras">
                 <img src="img/Vector.png" alt=""><p>Solo letras minúsculas y sin acentos</p>
             </div>        
-            <div  class="seccionbotones">     
-                <input type="button" class="botones" id="btnencrip" onclick="frirar()" value="Encriptar"/> 
-                <input type="button" class="botones" id="btndesemncrip" onclick="desifrar()" value="Desencriptar"/>    
+            <div  class="seccionbotones divisaras">   
+                <button class="botones" id="btnencrip" onclick="frirar();">Encriptar</button>
+                <button class="botones" id="btndesemncrip"  onclick="desifrar();">Desencriptar</button>                
             </div>  
         </div> 
-        <div class="datos">
-            <div id="imagendedatos">
+        <div class="datos divisaras">
+            <div id="imagendedatos divisaras">
                 <img src="img/Muñeco.png" alt="">
                 <p>Ningun mensaje fue encontrado</p>
                 <p>ingrese el texto que desea Incriptar o desencriptar</p>
@@ -38,11 +36,10 @@
                 <textarea  name="" disabled id="areaingreso" cols="30" rows="10"></textarea>
             </div>
             <div>
-                <input type="submit" class="botones" id="btncopiar" onclick="copiar()" value="Copiar">
+                <button class="botones" id="btncopiar" onclick="copiar()">Copiar</button>
             </div>
         </div>                                            
                        
-    </main>
-    
+    </div>        
 </body>
 </html>
