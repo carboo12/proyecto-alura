@@ -1,0 +1,199 @@
+
+main{
+    position: relative;
+    width: 1340px;
+    height: 608px;
+    background: #E5E5E5;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+body{
+    background: #E5E5E5;
+}
+
+
+.ingreso{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 190px;
+    top: 10px;    
+}
+.ingreso input{    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;    
+}
+.ingreso input::placeholder{
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.ingreso input:hover{
+    border-color: dodgerblue;
+    transition: 3ms;
+}
+
+.vector{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 105px;
+    top: 500px;
+}
+.seccionbotones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;    
+    position: absolute;
+    width: 688px;
+    height: 67px;
+    left: 100px;
+    top: 528px;
+}
+p{    
+    height: 18px;
+    width: 229px;
+    left: 240px;
+    top: 851px;
+    border-radius: 0px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;    
+    color: #495057;    
+    opacity: 0.8;    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.botones {
+    height: 67px;
+    width: 300px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+}
+#btnencrip{
+    background:#0A3871;    
+    color: white;
+    border-color: #aaaaaa;
+    border-width: 1px;
+    border-style: solid;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+#btnencrip:hover{
+    background: #E5E5E5;
+    color: #0A3871;
+    border-color: #0A3871;
+    border: 1px solid #0A3871;
+    transition: 3ms;
+
+}
+
+#btndesemncrip{
+    background: #E5E5E5;
+    color: #0A3871;
+    border-color: #0A3871;
+    border-width: 1px;
+    border-style: solid;
+    flex: none;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    order: 1;
+    flex-grow: 0;
+}
+
+#btndesemncrip:hover{
+    background:#0A3871;    
+    color: white;
+    border-color: #aaaaaa;
+    transition: 3ms;
+
+}
+
+.datos{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 925px;
+    top: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    
+}
+.datos #areaingreso{
+    display: none;
+    position: absolute;
+    width: 336px;
+    height: 450px;
+    left: 29px;
+    top: 38px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    border-color: #0A3871;
+
+}
+.datos input{
+    display: none;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 29px;
+    top: 500px;
+    background: white;
+    color: #0A3871;
+    border-color: #0A3871;
+    border-width: 1px;
+    border-style: solid;
+    flex: none;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    order: 1;
+    flex-grow: 0;
+}
+.datos p{
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.datos input:hover{
+    background:#0A3871;    
+    color: white;
+    border-color: #aaaaaa;
+    transition: 3ms;
+}

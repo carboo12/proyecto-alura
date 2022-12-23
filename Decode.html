@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stilos.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <title>Decondificador</title>
+</head>
+<body>   
+    <main>
+        <div class="logo">
+            <img src="img/Vector (1).png" alt="">
+        </div>        
+        <section >           
+            <div  class="ingreso">
+                <input type="text" id="textingreso" placeholder="Ingrese el Texto Aqui">         
+            </div>
+        </section>  
+        <section>
+            <div class="vector">
+                <img src="img/Vector.png" alt=""><p>Solo letras minúsculas y sin acentos</p>
+            </div>        
+            <div  class="seccionbotones">     
+                <input type="submit" class="botones" id="btnencrip" onclick="frirar()" value="Encriptar"> 
+                <input type="submit" class="botones" id="btndesemncrip" onclick="desifrar()" value="Desencriptar">    
+            </div>  
+        </section> 
+        <section class="datos">
+            <div id="imagendedatos">
+                <img src="img/Muñeco.png" alt="">
+                <p>Ningun mensaje fue encontrado</p>
+                <p>ingrese el texto que desea Incriptar o desencriptar</p>
+            </div>
+            <div>
+                <textarea  name="" disabled id="areaingreso" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" class="botones" id="btncopiar" onclick="copiar()" value="Copiar">
+
+            </div>
+
+        </section>                                            
+                       
+    </main>
+    
+</body>
+</html>
