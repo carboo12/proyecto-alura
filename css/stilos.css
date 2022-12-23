@@ -198,5 +198,8 @@ p{
     transition: 3ms;
 }
 @media screen and (max-width: 480px) {
-    
+    .datos, .vector, .seccionbotones{
+        width: 100%;
+    }
+
 }
