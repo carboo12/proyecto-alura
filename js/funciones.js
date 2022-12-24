@@ -24,7 +24,6 @@ function desocultar(elemento){
     document.getElementById(elemento).style.display = "block";
 }
 
-
 function frirar(){    
     var ingresar = document.getElementById("textingreso").value.toLowerCase();
     var texto =  document.getElementById("areaingreso").value;
