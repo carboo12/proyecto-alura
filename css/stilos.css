@@ -14,8 +14,6 @@ body{
     background: #E5E5E5;
 }
 
-
-
 .ingreso{
     position: absolute;
     width: 577px;
@@ -102,7 +100,6 @@ p{
     flex: none;
     order: 0;
     flex-grow: 0;
-
 }
 
 #btnencrip:hover{
@@ -111,7 +108,6 @@ p{
     border-color: #0A3871;
     border: 1px solid #0A3871;
     transition: 3ms;
-
 }
 
 #btndesemncrip{
@@ -132,7 +128,6 @@ p{
     color: white;
     border-color: #aaaaaa;
     transition: 3ms;
-
 }
 
 .datos{
@@ -160,7 +155,6 @@ p{
     line-height: 150%;
     color: #495057;
     border-color: #0A3871;
-
 }
 .datos button{
     display: none;
@@ -178,8 +172,7 @@ p{
     border: 1px solid #0A3871;
     border-radius: 24px;
     order: 1;
-    flex-grow: 0;
-    
+    flex-grow: 0;    
 }
 .datos p{
     width: 336px;
@@ -206,41 +199,21 @@ p{
 
 
 
-/*control de columnas para el responsive*/
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
 /*medidas para tablets*/
 @media screen and (max-width: 820px) {
-    .main{
-       
-      
-        
+    .main{     
+              
          height: 1174px;
-    }
-  
-  
-    .ingreso input{
+    }  
+   .ingreso input{
         width: 100%
     }
     .logo, .ingreso{
         width: auto;
     }
-    .datos{
-       
+    .datos{       
         width: auto;
     }
-
 }
 
 @media screen and (max-width: 480px) {
